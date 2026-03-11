@@ -197,7 +197,7 @@
                                             <li><a href="project-details.html">plan details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children"><a href="#">Pages</a>
+                                    <li class="menu-item-has-children"><a href="#">Pages </a>
                                         <ul class="sub-menu">
                                             <li class="menu-item-has-children"><a href="#">Shop</a>
                                                 <ul class="sub-menu">
