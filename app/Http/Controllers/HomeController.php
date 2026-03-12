@@ -61,6 +61,11 @@ class HomeController extends Controller
         return view('user.portfolio');
     }
 
+      public function contact_us()
+    {
+        return view('user.contact_us');
+    }
+
 
 
 

@@ -20,6 +20,7 @@ Route::get('about', [HomeController::class, 'about'])->name('about');
 Route::get('service', [HomeController::class, 'service'])->name('service');
 Route::get('plan', [HomeController::class, 'plan'])->name('plan');
 Route::get('portfolio', [HomeController::class, 'portfolio'])->name('portfolio');
+Route::get('contact_us', [HomeController::class, 'contact_us'])->name('contact_us');
 
 
 
