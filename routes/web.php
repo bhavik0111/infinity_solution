@@ -19,6 +19,7 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('about', [HomeController::class, 'about'])->name('about');
 Route::get('service', [HomeController::class, 'service'])->name('service');
 Route::get('plan', [HomeController::class, 'plan'])->name('plan');
+Route::get('portfolio', [HomeController::class, 'portfolio'])->name('portfolio');
 
 
 

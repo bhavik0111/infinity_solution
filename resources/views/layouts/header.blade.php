@@ -199,7 +199,7 @@
                                     </li>
                                     <li class="menu-item-has-children"><a href="#">Pages </a>
                                         <ul class="sub-menu">
-                                            <li class="menu-item-has-children"><a href="#">Shop</a>
+                                            {{-- <li class="menu-item-has-children"><a href="#">Shop</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="shop.html">Shop</a></li>
                                                     <li><a href="shop-details.html">Shop Details</a></li>
@@ -224,10 +224,10 @@
                                             <li><a href="team.html">Team</a></li>
                                             <li><a href="team-details.html">Team Details</a></li>
                                             <li><a href="testimonial.html">Testimonial</a></li>
-                                            <li><a href="pricing.html">Price Table</a></li>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="faq.html">Faq</a></li>
-                                            <li><a href="error.html">Error Page</a></li>
+                                            <li><a href="pricing.html">Price Table</a></li> --}}
+                                            <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                                            {{-- <li><a href="faq.html">Faq</a></li>
+                                            <li><a href="error.html">Error Page</a></li> --}}
                                         </ul>
                                     </li>
                                     <li><a href="contact.html">Contact</a></li>

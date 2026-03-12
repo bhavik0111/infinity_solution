@@ -56,6 +56,11 @@ class HomeController extends Controller
     }
     
 
+    public function portfolio()
+    {
+        return view('user.portfolio');
+    }
+
 
 
 
