@@ -53,8 +53,8 @@
                 </div>
             </div>
         </div>
-        <div class="shape-mockup spin d-none d-xxl-block" data-bottom="10%" data-left="45%"><img
-                src="{{ asset('demo/assets/img/shape/element-1.svg') }}" alt=""></div>
+        {{-- <div class="shape-mockup spin d-none d-xxl-block" data-bottom="10%" data-left="45%"><img
+                src="{{ asset('demo/assets/img/shape/element-1.svg') }}" alt=""></div> --}}
     </div>
     <section class="position-relative overflow-hidden space" id="service-sec">
         <div class="container">

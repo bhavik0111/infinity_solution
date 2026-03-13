@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="{{ asset('demo/assets/css/style.css')}}">
 </head>
 
-<body id="show-grid">
+<body id="">
     <div class="cursor"></div>
     <div class="cursor2"></div>
     <div class="color-scheme-wrap active"><button class="switchIcon"><i class="fa-solid fa-palette"></i></button>

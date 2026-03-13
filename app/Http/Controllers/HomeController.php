@@ -16,7 +16,7 @@ class HomeController extends Controller
     //     $this->middleware('auth');
     // }
 
-    
+
     /*
     
 
@@ -34,41 +34,54 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('layouts.home');
+        return view('frontend.home');
     }
 
 
     public function about()
     {
-        return view('user.about');
+        return view('frontend.about');
     }
 
 
     public function service()
     {
-        return view('user.service');
+        return view('frontend.service');
     }
 
 
     public function plan()
     {
-        return view('user.plan');
+        return view('frontend.plan');
     }
-    
+
 
     public function portfolio()
     {
-        return view('user.portfolio');
+        return view('frontend.portfolio');
     }
 
-      public function contact_us()
+    public function contact_us()
     {
-        return view('user.contact_us');
+        return view('frontend.contact_us');
     }
 
 
+    public function project()
+    {
+        return view('frontend.project');
+    }
 
 
-
-
+    public function project_details($id)
+    {
+        $id = 1;
+        return view('frontend.project-details', compact('id'));
+    }
+    
+    public function service_details($id)
+    {
+        $id = 1;
+        return view('frontend.service-details', compact('id'));
+    }
 }

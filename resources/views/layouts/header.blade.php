@@ -10,7 +10,7 @@
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li class="menu-item-has-children"><a href="{{ route('home') }}">Home</a>
+                                    <li><a href="{{ route('home') }}">Home</a>
                                         <!-- <ul class="mega-menu mega-menu-content mega-scroll">
                                             <li>
                                                 <div class="container">
@@ -197,7 +197,7 @@
                                             <li><a href="project-details.html">plan details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children"><a href="#">Pages </a>
+                                    <li class="menu-item-has-children"><a href="#">Projects</a>
                                         <ul class="sub-menu">
                                             {{-- <li class="menu-item-has-children"><a href="#">Shop</a>
                                                 <ul class="sub-menu">
