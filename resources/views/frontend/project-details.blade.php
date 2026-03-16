@@ -6,7 +6,7 @@
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title text-anime">Architecture Nordic Space</h1>
                     <ul class="breadcumb-menu">
-                        <li class="wow fadeInUp" data-wow-delay=".2s"><a href="home-interior.html">Home</a></li>
+                        <li class="wow fadeInUp" data-wow-delay=".2s"><a href="{{ route('home') }}">Home</a></li>
                         <li class="wow fadeInUp" data-wow-delay=".3s">Portfolio Details</li>
                     </ul>
                 </div>

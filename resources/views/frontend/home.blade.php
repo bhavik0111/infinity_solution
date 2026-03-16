@@ -23,7 +23,7 @@
                             <li class="wow fadeInUp" data-wow-delay=".7s">Access expert insights and how-to guides</li>
                         </ul>
                     </div>
-                    <div class="btn-group mt-40 wow fadeInUp" data-wow-delay=".8s"><a href="project.html"
+                    <div class="btn-group mt-40 wow fadeInUp" data-wow-delay=".8s"><a href="{{ route('project') }}"
                             class="th-btn style2">Start your Project <i class="fa-light fa-arrow-right-long ms-2"></i></a>
                     </div>
                 </div>

@@ -151,4 +151,50 @@
             </div>
         </div>
     </section>
+
+
+      <div class="choose-area3 position-relative overflow-hidden space-bottom overflow-hidden">
+        <div class="container">
+            <div class="row gy-5 justify-content-between">
+                <div class="col-xl-5">
+                    <div class="title-area"><span class="sub-title sub-title2">Why Choose Us</span></div>
+                </div>
+                <div class="col-xl-7">
+                    <div class="title-area ps-xl-5 ms-xl-5">
+                        <h2 class="sec-title style5 split-text mt-0">Creating Eco-Friendly Structures for a Sustainable
+                            Tomorrow</h2>
+                        <p>Real Estate Architectural Services combine innovation, functionality, and aesthetics to
+                            transform visions into reality. These services focus on creating well-planned, sustainable,
+                            and visually appealing structures that meet both client goals and regulatory standards.</p>
+                    </div>
+                    <div class="choose-progress-bar">
+                        <div class="progress-bar">
+                            <div class="progress-track">
+                                <div class="progress-fill"><span class="counter">85%</span>
+                                    <p class="text">Renovations & Retrofitting</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-track">
+                                <div class="progress-fill"><span class="counter">45%</span>
+                                    <p class="text">Custom Homes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-track">
+                                <div class="progress-fill"><span class="counter">55%</span>
+                                    <p class="text">Modular/Prefab Design</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="choose-bottom-line">
+                </div>
+            </div>
+        </div>
+        <div class="shape-mockup d-none d-xl-block" data-bottom="10%" data-left="0%"><img
+                src="{{ asset   ('demo/assets/img/normal/choose-img.png')}}" alt=""></div>
+    </div>
 @endsection

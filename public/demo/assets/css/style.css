@@ -2899,6 +2899,13 @@ input[type=time]::-webkit-calendar-picker-indicator {
     color: #fff
 }
 
+
+@media (max-width: 767px) {
+    .loader-wrap .loader-wrap-heading .load-text { 
+          letter-spacing: 10px !important; 
+    }
+}
+
 .load-text span {
     -webkit-animation: loading 1s infinite alternate;
     animation: loading 1s infinite alternate
@@ -26383,6 +26390,10 @@ span.select2-selection.select2-selection--single:focus {
 @media (max-width: 767px) {
     .main-container .image-container {
         height: 500px
+    }
+     .cursor,
+    .cursor2 {
+        display: none !important;
     }
 }
 

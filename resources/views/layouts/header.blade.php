@@ -194,7 +194,7 @@
                                     <li class="menu-item-has-children"><a href="#">Plan</a>
                                         <ul class="sub-menu">
                                             <li><a href="{{ route('plan') }}">plan</a></li>
-                                            <li><a href="project-details.html">plan details</a></li>
+                                            {{-- <li><a href="project-details.html">plan details</a></li> --}}
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children"><a href="#">Projects</a>

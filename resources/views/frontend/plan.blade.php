@@ -2,12 +2,12 @@
 @section('content')
 
      <div class="breadcumb-area">
-        <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+        <div class="breadcumb-wrapper" data-bg-src="{{ asset('demo/assets/img/bg/breadcumb-bg.jpg') }}">
             <div class="container">
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title text-anime">Pricing Plan</h1>
                     <ul class="breadcumb-menu">
-                        <li class="wow fadeInUp" data-wow-delay=".2s"><a href="home-interior.html">Home</a></li>
+                        <li class="wow fadeInUp" data-wow-delay=".2s"><a href="{{ route('home') }}">Home</a></li>
                         <li class="wow fadeInUp" data-wow-delay=".3s">Pricing Plan</li>
                     </ul>
                 </div>
@@ -33,7 +33,7 @@
             <div class="row gy-4 justify-content-center">
                 <div class="col-md-6 col-lg-4 col-xxl-3">
                     <div class="price-image wow fadeInUp global-img" data-wow-delay=".2s"><img
-                            src="assets/img/normal/price-img.jpg" alt=""></div>
+                            src="{{ asset('demo/assets/img/normal/price-img.jpg') }}" alt=""></div>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xxl-3">
                     <div class="price-card style2 wow fadeInUp" data-wow-delay=".3s">
