@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('content')
     <div class="breadcumb-area">
-        <div class="breadcumb-wrapper" data-bg-src="{{ asset('demo/assets/img/bg/breadcumb-bg.jpg') }}">
+        <div class="breadcumb-wrapper" data-bg-src="{{ asset('demo/assets/img/bg/about-header-foto.avif') }}">
             <div class="container">
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title text-anime">About Our Firm</h1>
@@ -534,7 +534,43 @@
             </div>
         </div>
     </section>
-    
+
+
+    <section class="space-top overflow-hidden">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-9">
+                    <div class="title-area text-center mb-35"><span class="sub-title style2 text-anime">about us</span>
+                        <h3 style="font-size: 16px;" class="sec-title split-text text-uppercase">We blend creativity, culture, and <span
+                                class="video-img"><img src="{{ asset('demo/assets/img/shape/video-img.png') }}" alt=""> <a
+                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video-btn popup-video"><i
+                                        class="fa-sharp fa-solid fa-play"></i></a></span> comfort to redefine <span
+                                class=""><img src="{{ asset('demo/assets/img/shape/avater.png') }}" alt=""></span>hospitality environments.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-30">
+                <div class="cta-wrapp">
+                    <div class="cta-item">
+                        <div class="cta-thumb global-img"><img src="{{ asset('demo/assets/img/normal/cta-img-1.jpg') }}" alt=""></div>
+                    </div>
+                    <div class="cta-item">
+                        <div class="cta-thumb global-img"><img src="{{ asset('demo/assets/img/normal/cta-img-2.jpg') }}" alt=""></div>
+                    </div>
+                    <div class="cta-item">
+                        <div class="cta-thumb global-img"><img src="{{ asset('demo/assets/img/normal/cta-img-3.jpg') }}" alt=""></div>
+                    </div>
+                    <div class="cta-item">
+                        <div class="cta-thumb global-img"><img src="{{ asset('demo/assets/img/normal/cta-img-4.jpg') }}" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape-mockup spin d-none d-xxl-block" data-top="16%" data-left="6%"><img
+                src="{{ asset('demo/assets/img/shape/element-5.png') }}" alt=""></div>
+    </section>
+
     <div class="overflow-hidden space overflow-hidden" data-bg-src="{{ asset('demo/assets/img/bg/gallery_bg_1.jpg') }}">
         <div class="container">
             <div class="row justify-content-center">

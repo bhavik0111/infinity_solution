@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('content')
     <div class="breadcumb-area">
-        <div class="breadcumb-wrapper" data-bg-src="{{ asset('demo/assets/img/bg/breadcumb-bg.jpg') }}">
+        <div class="breadcumb-wrapper" data-bg-src="{{ asset('demo/assets/img/bg/service-header-foto.jpeg') }}">
             <div class="container">
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title text-anime">Our Services</h1>
@@ -152,8 +152,31 @@
         </div>
     </section>
 
+    <div class="position-relative overflow-hidden space-bottom overflow-hidden">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-xl-4">
+                    <div class="title-area text-center text-lg-start"><span class="sub-title text-anime">WORK IN
+                            PROGRESS</span>
+                        <h2 class="sec-title style2 split-text">Quality <span class="text-theme">Feasibility
+                            </span>Sustainability</h2>
+                        <p class="sec-text wow fadeInUp" data-wow-delay=".3s">We believe That great interior has the
+                            power to sustainablity and improve lives, and we are dedicated to delivering projects.</p>
+                    </div>
+                    <div class="mt-140 text-center text-lg-start wow fadeInUp" data-wow-delay=".5s"><a
+                            href="contact.html" class="th-btn th-icon">Discover More</a></div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="main-container wow fadeInLeft" data-wow-delay=".2s">
+                        <div class="image-container"></div><img class="panorama-img"
+                            src="{{ asset('demo/assets/img/normal/progress-img.jpg')}}" alt="Panorama Image" style="display: none;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-      <div class="choose-area3 position-relative overflow-hidden space-bottom overflow-hidden">
+    <div class="choose-area3 position-relative overflow-hidden space-bottom overflow-hidden">
         <div class="container">
             <div class="row gy-5 justify-content-between">
                 <div class="col-xl-5">
@@ -195,6 +218,6 @@
             </div>
         </div>
         <div class="shape-mockup d-none d-xl-block" data-bottom="10%" data-left="0%"><img
-                src="{{ asset   ('demo/assets/img/normal/choose-img.png')}}" alt=""></div>
+                src="{{ asset('demo/assets/img/normal/choose-img.png') }}" alt=""></div>
     </div>
 @endsection
